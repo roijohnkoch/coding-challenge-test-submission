@@ -7,3 +7,12 @@ export interface Address {
   postcode: string;
   street: string;
 }
+
+export interface Details {
+  city: string;
+  houseNumber: string;
+  lat: number;
+  long: number;
+  postcode: string;
+  street: string;
+}
